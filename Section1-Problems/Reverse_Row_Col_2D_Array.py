@@ -25,7 +25,11 @@ def reverse_row(arr):
     
     return rev_arr
 
-
+print("Original Array:")
+print(arr)
+print("\n")
+print("Reversed Column Array:")
 print(reverse_column(arr))
 print("\n")
+print("Reversed Row Array:")
 print(reverse_row(arr))
